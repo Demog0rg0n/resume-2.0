@@ -1,0 +1,25 @@
+.main-screen .container{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.main-screen__text{
+    width: calc(50% - 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-screen__img{
+    width: calc(50% - 50px);
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.main-screen__button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}

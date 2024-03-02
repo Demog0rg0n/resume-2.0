@@ -1,0 +1,19 @@
+.introduction{
+    background-color: #FFB627;
+}
+
+.introduction .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.introduction__img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.introduction__text{
+    max-width: 480px;
+}

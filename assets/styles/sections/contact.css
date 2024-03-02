@@ -1,0 +1,28 @@
+.contact{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+}
+
+.contact p{
+    max-width: 600px;
+    color: #FFC971;
+}
+
+.contact__items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 10px;
+}
+.contact__items li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #262626;
+}
+.contact__items a{
+    color: #FFC971;
+    text-decoration: none;
+}

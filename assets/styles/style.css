@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+    line-height: 1.5em;
+}
+
+section{
+    padding: 100px 0;
+}
+
+img{
+    display: block;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.container{
+    display: block;
+    max-width: 1030px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFC971;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 32px;
+}

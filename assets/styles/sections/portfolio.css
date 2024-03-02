@@ -1,0 +1,22 @@
+.portfolio h2{
+    margin-bottom: 20px;
+}
+
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.portfolio__item{
+    width: calc(50% - 20px);
+}
+.portfolio__item img{
+    width: 100%;
+    border-radius: 40px;
+    height: 480px;
+}
+.portfolio__item h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
