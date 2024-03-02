@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+.introduction h2{
+    margin-bottom: 20px;
+}
+
 .introduction__img{
     width: 80px;
     height: 80px;
