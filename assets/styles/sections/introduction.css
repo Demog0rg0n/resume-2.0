@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    gap: 20px;
 }
 
 .introduction h2{
@@ -20,4 +21,31 @@
 
 .introduction__text{
     max-width: 480px;
+}
+
+@media (max-width: 1200px) {
+    .introduction{
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .introduction{
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 630px) {
+    .introduction .container{
+        flex-direction: column;
+    }
+    .introduction__text{
+        max-width: initial;
+    }
+    
+}
+@media (max-width: 400px) {
+    .introduction h2{
+        font-size: 42px;
+    }
 }
