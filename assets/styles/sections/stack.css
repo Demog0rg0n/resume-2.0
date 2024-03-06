@@ -21,11 +21,27 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.stack__item *{
+    position: relative;
+    z-index: 5;
+}
+
+.stack__item__bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    z-index: 1;
+    opacity: 0.3;
 }
 
 .stack__item span{
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #FFC971;
 }
 
@@ -35,6 +51,20 @@
     border-radius: 8px;
     object-fit: cover;
     object-position: left center;
+}
+
+.stack__item__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.2em;
+}
+.stack__item__list li{
+    padding: 7px 10px;
+    border: 1px solid #FFC971;
+    color: #FFC971;
+    width: fit-content;
+    border-radius: 10px;
 }
 
 @media (min-width: 1200px) {
