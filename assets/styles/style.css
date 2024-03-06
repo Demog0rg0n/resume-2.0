@@ -6,8 +6,9 @@
 
 body{
     font-size: 20px;
-    font-family: "Archivo", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5em;
+    font-weight: 400;
 }
 
 section{
@@ -31,18 +32,35 @@ ul, ol{
 }
 
 .button{
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #000000;
-    color: #FFC971;
-    text-transform: uppercase;
-    border: none;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #000000;
+    transition: .1s linear;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    background: none;
+    line-height: 1.5em;
+}
+
+@media (hover: hover) {
+    .button:hover{
+        background-color: #000000;
+        color: #FFF;
+    }
+}
+@media (hover: none) {
+    .button:active{
+        background-color: #000000;
+        color: #FFF;
+    }
+    
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "Bowlby One", sans-serif;
-    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    font-weight: 900;
     font-style: normal;
     line-height: 1em;
 }
@@ -53,7 +71,7 @@ h1{
 }
 
 h2{
-    font-size: 48px;
+    font-size: 50px;
 }
 
 h3{

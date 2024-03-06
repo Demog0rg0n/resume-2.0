@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bowlby+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/styles/style.css">
 
@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/assets/styles/sections/stack.css">
     <link rel="stylesheet" href="/assets/styles/sections/portfolio.css">
     <link rel="stylesheet" href="/assets/styles/sections/contact.css">
+
     <title>Resume</title>
 </head>
 <body>
@@ -22,9 +23,9 @@
         <section class="main-screen">
             <div class="main-screen container">
                 <div class="main-screen__text">
-                    <h1>Frontend Whiz!</h1>
-                    <p>Welcome to a compelling tale of a Frontend Developer who changed the game! Let’s dive into the captivating life and works of this coding magician.</p>
-                    <button class="main-screen__button button">Discover More</button>
+                    <h1>Фронтенд разработчик</h1>
+                    <p>Добро пожаловать на мой сайт резюме. На нём вы узнаете краткую информацию обо мне и сможете посмотреть примеры моих работ. Надеюсь вам понравится :D</p>
+                    <button class="main-screen__button button">Узнать больше</button>
                 </div>
                 <img src="/assets/images/photo.png" alt="photo" class="main-screen__img">
             </div>
@@ -33,24 +34,24 @@
             <div class="container">
                 <img src="/assets/images/photo.png" alt="" class="introduction__img">
                 <div class="introduction__text">
-                    <h2>Introduction</h2>
-                    <p>Meet John Doe, the maestro of JavaScript! With his splendid contributions to the world of frontend development, he weaves magic into every line of code. His provoking insights and exceptional skills have led him to be recognized as a trailblazer in his field.</p>
+                    <h2>Обо мне</h2>
+                    <p>Меня зовут Ваня, занимаюсь frontend разработкой около 2-х лет, опыт работы около 8 месяцев. Закончил колледж с красным дипломом по специальности "Информационные системы и программирование". Учусь программированию самостоятельно, с помощью лекций ШРИ от Яндекс, сайта "HTML Academy" а также книг "learn.javascript.ru", "Грокаем алгоритмы". Из положительных качеств могу отметить: быструю обучаемость, коммуникабельность, усидчивость</p>
                 </div>
             </div>
         </section>
         <section class="stack">
             <div class="container">
-                <h2 class="stack__title">Stack</h2>
+                <h2 class="stack__title">Стэк</h2>
                 <ul class="stack__items">
                     <li class="stack__item">
                         <h3>HTML5</h3>
                         <span>Expert in structuring web content</span>
-                        <img class="stack__item__img" src="/assets/images/photo.png" alt="">
+                        <img class="stack__item__img" src="/assets/images/stack/HTML.png" alt="">
                     </li>
                     <li class="stack__item">
                         <h3>CSS3</h3>
                         <span>Expert in structuring web content</span>
-                        <img class="stack__item__img" src="/assets/images/photo.png" alt="">
+                        <img class="stack__item__img" src="/assets/images/stack/CSS.png" alt="">
                     </li>
                     <li class="stack__item">
                         <h3>JS</h3>
@@ -77,53 +78,70 @@
         </section>
         <section class="portfolio">
             <div class="container">
-                <h2>Portfolio</h2>
+                <h2>Портфолио</h2>
+
+                <ul class="portfolio__tabs">
+                    <li class="portfolio__tab button active">React/JS</li>
+                    <li class="portfolio__tab button">Вёртска</li>
+                </ul>
                 
                 <ul class="portfolio__items">
-                    <li class="portfolio__item">
+
+                    <li class="portfolio__item" data-portfolio-type="React/JS">
                         <div class="portfolio__item__img">
-                            <img src="/assets/images/photo.png" alt="">
+                            <img src="/assets/images/projects/filmTube.png" alt="">
                         </div>
-                        <h3>E-commerce site</h3>
-                        <p>An extravagant marketplace optimized for user experience</p>
+                        <h3>FilmTube</h3>
+                        <p class="portfolio__item__desc">Сайт для просмотра информации о фильмах, с использованием Api Кинопоиск</p>
+                        <div class="portfolio__item__links">
+                            <a href="https://film-tube.vercel.app/" class="portfolio__item__link button">Перейти</a>
+                            <a href="https://github.com/Demog0rg0n/FilmTube" class="portfolio__item__link button">GitHub</a>
+                        </div>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="portfolio__item" data-portfolio-type="React/JS">
                         <div class="portfolio__item__img">
-                            <img src="/assets/images/photo.png" alt="">
+                            <img src="/assets/images/projects/todo.png" alt="">
                         </div>
-                        <h3>E-commerce site</h3>
-                        <p>An extravagant marketplace optimized for user experience</p>
+                        <h3>Todos</h3>
+                        <p class="portfolio__item__desc">Простой todo list</p>
+                        <div class="portfolio__item__links">
+                            <a href="https://todo-list-gules-zeta.vercel.app/" class="portfolio__item__link button">Перейти</a>
+                            <a href="https://github.com/Demog0rg0n/todo-list" class="portfolio__item__link button">GitHub</a>
+                        </div>
                     </li>
-                    <li class="portfolio__item">
+                    <li class="portfolio__item" data-portfolio-type="Вёртска">
                         <div class="portfolio__item__img">
-                            <img src="/assets/images/photo.png" alt="">
+                            <img src="/assets/images/projects/rumtibet.png" alt="">
                         </div>
-                        <h3>E-commerce site</h3>
-                        <p>An extravagant marketplace optimized for user experience</p>
-                    </li>
-                    <li class="portfolio__item">
-                        <div class="portfolio__item__img">
-                            <img src="/assets/images/photo.png" alt="">
+                        <h3>Rumtibet</h3>
+                        <p class="portfolio__item__desc">Сайт для организации совместных походов</p>
+                        <div class="portfolio__item__links">
+                            <a href="https://rumtibet-umber.vercel.app/" class="portfolio__item__link button">Перейти</a>
+                            <a href="https://github.com/Demog0rg0n/rumtibet" class="portfolio__item__link button">GitHub</a>
                         </div>
-                        <h3>E-commerce site</h3>
-                        <p>An extravagant marketplace optimized for user experience</p>
                     </li>
+
                 </ul>
             </div>
         </section>
         <section class="contact">
             <div class="container">
-                <h2>Contact</h2>
-                <p>Want to get in touch with John? He’d be thrilled to hear from you! Use the following mediums to get connected.</p>
+                <h2>Контакты</h2>
+                <p>Если хотите связаться со мной, то можете использовать одну из ссылок снизу</p>
 
                 <ul class="contact__items">
-                    <li><a href="">Telegram</a></li>
-                    <li><a href="">Gmail</a></li>
-                    <li><a href="">Github</a></li>
-                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="https://t.me/CoBa2204">Telegram</a></li>
+                    <li><a href="mailto: ivan.kot1331@gmail.com">Gmail</a></li>
+                    <li><a href="https://github.com/Demog0rg0n">Github</a></li>
+                    <!-- <li><a href="">LinkedIn</a></li> -->
                 </ul>
             </div>
         </section>
     </main>
+
+
+    <script src="/assets/scripts/portfolio.js"></script>
+    <script src="/assets/scripts/scroll.js"></script>
+
 </body>
 </html>
