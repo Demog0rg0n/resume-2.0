@@ -40,10 +40,6 @@
     margin-bottom: 10px;
 }
 
-.stack__item *{
-    position: relative;
-    z-index: 5;
-}
 
 .stack__item__bg{
     position: absolute;
@@ -54,11 +50,11 @@
     opacity: 0.3;
 }
 
-.stack__item span{
+/* .stack__item span{
     font-size: 16px;
     margin-bottom: 20px;
     color: #FFC971;
-}
+} */
 
 .stack__item__img{
     width: 100%;
@@ -80,6 +76,10 @@
     color: #FFC971;
     width: fit-content;
     border-radius: 10px;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #FFC971;
 }
 
 @media (min-width: 1200px) {
