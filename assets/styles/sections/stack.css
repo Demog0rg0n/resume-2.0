@@ -18,16 +18,26 @@
     display: block;
     border-radius: 40px;
     background-color: #0D0D0D;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     height: 400px;
     position: relative;
     overflow: hidden;
+    font-size: 18px;
+}
+
+.stack__item__swiper{
+    width: 100%;
+    height: 100%;
 }
 
 .stack__item h3{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.stack__item h4{
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .stack__item *{

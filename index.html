@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="/assets/styles/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="/assets/styles/sections/main-screen.css">
     <link rel="stylesheet" href="/assets/styles/sections/introduction.css">
     <link rel="stylesheet" href="/assets/styles/sections/stack.css">
@@ -45,64 +48,138 @@
                 <ul class="stack__items">
                     <li class="stack__item">
                         <h3>HTML5</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>http/https</li>
-                            <li>Структура HTML-документа</li>
-                            <li>Разметка страницы</li>
-                            <li>Семантическая верстка</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Структура и семантика</h4>
+                                    <p>Умение создавать четкую структуру веб-страницы с использованием семантических элементов HTML, таких как, nav, section, article, footer и т.д. для лучшего понимания контента и улучшения доступности.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Формы и элементы ввода</h4>
+                                    <p>Опыт работы с формами HTML, включая использование различных типов элементов ввода (например, input, textarea, select) и атрибутов для создания интерактивных пользовательских интерфейсов.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Мультимедиа и встраиваемые элементы</h4>
+                                    <p>Умение встраивать различные мультимедийные элементы, такие как изображения, видео, аудио, а также использование встраиваемых элементов, таких как iframe для интеграции внешних ресурсов.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Семантика и SEO</h4>
+                                    <p>Знание основных принципов SEO (оптимизации для поисковых систем) и использование семантических элементов HTML для улучшения индексации и ранжирования веб-страниц в поисковых системах.</p>
+                                </div>
+                            </div>
+                        </div>
                         <img src="/assets/images/the-monitor-with-code.svg" alt="" class="stack__item__bg">
                     </li>
                     <li class="stack__item">
                         <h3>CSS3</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>Основы CSS</li>
-                            <li>Анимации и переходы</li>
-                            <li>Адаптивная верстка</li>
-                            <li>Кроссбраузерная верстка</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Гибкость в работе с разными макетами</h4>
+                                    <p>Могу создавать адаптивные и креативные макеты с использованием CSS Grid, Flexbox и других техник.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Кроссбраузерность</h4>
+                                    <p>Учитываю различия в реализации CSS между различными браузерами и знаею, как писать код, который работает одинаково хорошо на всех основных платформах.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Анимации и переходы</h4>
+                                    <p>Могу создавать плавные анимации и переходы с использованием CSS, подходящие для различных интерактивных элементов веб-страниц.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>CSS-функции и методы</h4>
+                                    <p>Знаком с последними обновлениями CSS, такими как пользовательские свойства (CSS Custom Properties), фильтры, и т. д., и могу успешно применять их в своей работе.</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="stack__item">
                         <h3>JS</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>Основы JS</li>
-                            <li>Работа с массивами и обьектами</li>
-                            <li>Ассинхронность</li>
-                            <li>Прототипы, наследование</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Продвинутое владение основами</h4>
+                                    <p>Уверенно использую основные концепции JavaScript, такие как переменные, условные операторы, циклы, функции и объекты.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Манипуляция DOM</h4>
+                                    <p>Знаю, как управлять DOM-элементами с помощью JavaScript, изменять их стили, добавлять и удалять элементы, обрабатывать события.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Оптимизация и отладка</h4>
+                                    <p>Использую инструменты разработчика браузера для отладки JavaScript-кода, профилирования производительности и оптимизации приложений.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Работа с асинхронным кодом</h4>
+                                    <p>Успешно использую промисы и async/await для работы с асинхронными операциями.</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="stack__item">
                         <h3>React</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>Основы React</li>
-                            <li>Состояние (useState)</li>
-                            <li>Эффекты (useEffect)</li>
-                            <li>Прочие Хуки</li>
-                            <li>Оптимизация компонентов</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Продвинутое использование компонентов</h4>
+                                    <p>Создаю компоненты React, следуя лучшим практикам разделения интерфейса на независимые и переиспользуемые части.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Использование состояния и жизненного цикла</h4>
+                                    <p>Я успешно применяю локальное состояние компонентов с использованием useState, useReducer и других хуков React. Знаком с жизненным циклом компонентов и процессом построения приложения в целом</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Работа с данными</h4>
+                                    <p>Умею передавать данные между компонентами с помощью пропсов и контекста, а также при необходимости с помощью сторонних библиотек на подобии RTK </p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Использование React Router для навигации</h4>
+                                    <p>Знаком с React Router и успешно настраиваю маршрутизацию в моих приложениях, обеспечивая удобную навигацию пользователя по различным страницам и представлениям.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Интеграция с внешними библиотеками и API</h4>
+                                    <p>Умею интегрировать сторонние библиотеки и работать с внешними API, используя хуки useEffect и другие возможности React для обработки сетевых запросов и данных.</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="stack__item">
                         <h3>Redux(RTK)</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>Основы Redux</li>
-                            <li>Extra reducers</li>
-                            <li>Ассинхронные action`ы</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Использование createAsyncThunk для асинхронных операций</h4>
+                                    <p>Применяю createAsyncThunk для управления асинхронными операциями в Redux, такими как загрузка данных из API или отправка данных на сервер.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Интеграция с Redux DevTools</h4>
+                                    <p>Знаю, как интегрировать Redux Toolkit с Redux DevTools для отладки и мониторинга состояния приложения во время разработки.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Использование useSelector и useDispatch</h4>
+                                    <p>Использую useSelector и useDispatch из React-Redux для получения доступа к состоянию Redux и отправки действий. Это позволяет мне интегрировать Redux Toolkit с компонентами React</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="stack__item">
                         <h3>TS</h3>
-                        <!-- <span>Expert in structuring web content</span> -->
-                        <ul class="stack__item__list">
-                            <li>Типизация переменных</li>
-                            <li>Типизация функций</li>
-                            <li>TS + React</li>
-                            <li>TS + RTK</li>
-                        </ul>
+                        <div class="stack__item__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <h4>Использование типов и интерфейсов</h4>
+                                    <p>Задаю типы данных с помощью type и interface. Это позволяет мне строго типизировать код и предотвращать ошибки на этапе компиляции.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Работа с дженериками</h4>
+                                    <p>Использую дженерики для создания универсальных компонентов и функций, которые могут работать с различными типами данных.</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <h4>Интеграция TypeScript с React</h4>
+                                    <p>Знаю, как интегрировать TypeScript с React, используя tsx файлы и типизацию props компонентов.</p>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -173,6 +250,7 @@
 
     <script src="/assets/scripts/portfolio.js"></script>
     <script src="/assets/scripts/scroll.js"></script>
+    <script src="/assets/scripts/swiper.js"></script>
 
 </body>
 </html>
